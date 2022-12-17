@@ -1,3 +1,8 @@
+<?php 
+$dischi = file_get_contents('dischi.json');
+$dischi = json_decode($dischi, true);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +12,6 @@
     <title>PHP Dischi JSON</title>
 </head>
 <body>
-    
+
 </body>
 </html>
